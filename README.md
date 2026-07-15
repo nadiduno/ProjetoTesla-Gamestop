@@ -41,6 +41,6 @@ GameStop (GME): Identificação clara do fenômeno do short squeeze em 2021, ond
 
 Tesla (TSLA): Observação de um crescimento no preço das ações entre 2020 e 2021 que reflete, em grande parte, o crescimento real e estrutural da receita da companhia.
 
-Projeto desenvolvido para fins educacionais como parte do [IBM]([URL](https://www.coursera.org/account/accomplishments/verify/TY6RJI3SC1AK) Data Science Professional Certificate no site de Coursera.
+Projeto desenvolvido para fins educacionais como parte do [IBM](https://www.coursera.org/account/accomplishments/verify/TY6RJI3SC1AK) Data Science Professional Certificate no site de Coursera.
 
 [Certificado oficial de conclusão da IBM](https://www.coursera.org/account/accomplishments/verify/TY6RJI3SC1AK))
