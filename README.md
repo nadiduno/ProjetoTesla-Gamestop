@@ -1,33 +1,46 @@
-# ProjetoTesla-Gamestop
-Extração e visualização de dados históricos de ações e receita da Tesla e GameStop usando Python, yfinance e web scraping (BeautifulSoup).
+# Análise de Dados Financeiros: Tesla & GameStop 📊
 
-# Tesla & GameStop — Stock & Revenue Dashboard
+Este projeto foi desenvolvido como parte do desafio final do curso de Ciência de Dados da IBM. 
 
-Análise de dados históricos de preços de ações e receita trimestral da **Tesla (TSLA)** e **GameStop (GME)**, com visualização em gráficos comparativos.
+O objetivo é realizar a extração, tratamento e visualização de dados financeiros históricos para identificar correlações entre o preço das ações e a receita trimestral das empresas Tesla (TSLA) e GameStop (GME).
 
-## 🔧 Tecnologias
-- Python
-- yfinance — extração de dados de ações
-- BeautifulSoup — web scraping de dados de receita
-- Pandas — manipulação de dados
-- Plotly — visualização gráfica
-- Jupyter Notebook
+## 🛠️ Tecnologias Utilizadas
+*   **Linguagem:** Python
+*   **Extração de Dados:** `yfinance` e `requests` (Web Scraping)
+*   **Manipulação de Dados:** `Pandas`
+*   **Visualização:** `Matplotlib`
+*   **Ambiente:** Jupyter Notebook
 
-## 📊 O que o projeto faz
-- Extrai o histórico completo de preços das ações (TSLA e GME) via `yfinance`
-- Faz web scraping da receita trimestral de cada empresa a partir de páginas HTML
-- Limpa e trata os dados (remoção de `$`, `,` e valores nulos)
-- Gera gráficos comparando preço da ação x receita ao longo do tempo
+## 📋 Funcionalidades
+*   **Coleta:** Extração de dados históricos de mercado via API `yfinance`.
+*   **Web Scraping:** Extração de dados de receita trimestral de páginas HTML usando `BeautifulSoup`.
+*   **Limpeza:** Tratamento de dados brutos, incluindo remoção de caracteres especiais (`$`, `,`) e limpeza de valores nulos.
+*   **Visualização:** Criação de gráficos comparativos para análise temporal.
 
-## 📁 Estrutura
-- `Revenue_Data_and_Building_a_Dashboard.ipynb` — notebook principal com todo o código
+## 🚀 Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/nadiduno/ProjetoTesla-Gamestop.git
 
-## 🚀 Como rodar
+2. Instale as dependências:
+
 ```bash
-pip install yfinance pandas requests beautifulsoup4 plotly
-jupyter notebook
+pip install yfinance pandas requests beautifulsoup4 matplotlib
 ```
 
-## 📈 Resultados
-O projeto mostra, por exemplo, como o preço da ação da GameStop disparou em 2021 (short squeeze) sem relação direta com a receita da empresa, e como a Tesla teve crescimento acelerado de preço acompanhado de crescimento real de receita entre 2020-2021.
-O projeto mostra, por exemplo, como o preço da ação da GameStop disparou em 2021 (short squeeze) sem relação direta com a receita da empresa, e como a Tesla teve crescimento acelerado de preço acompanhado de crescimento real de receita entre 2020-2021.
+3. Abra o Jupyter Notebook:
+
+```bash
+jupyter notebook Revenue_Data_and_Building_a_Dashboard.ipynb
+```
+
+## 📈 Insights Gerados
+O projeto permite visualizar comportamentos distintos de mercado:
+
+GameStop (GME): Identificação clara do fenômeno do short squeeze em 2021, onde houve uma valorização extrema das ações sem uma correspondência direta na receita operacional.
+
+Tesla (TSLA): Observação de um crescimento no preço das ações entre 2020 e 2021 que reflete, em grande parte, o crescimento real e estrutural da receita da companhia.
+
+Projeto desenvolvido para fins educacionais como parte do [IBM]([URL](https://www.coursera.org/account/accomplishments/verify/TY6RJI3SC1AK) Data Science Professional Certificate no site de Coursera.
+
+[Certificado oficial de conclusão da IBM](https://www.coursera.org/account/accomplishments/verify/TY6RJI3SC1AK))
